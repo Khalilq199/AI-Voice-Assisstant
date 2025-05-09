@@ -8,7 +8,7 @@ from livekit.agents import (
 )
 from livekit.agents.multimodal import MultimodalAgent
 from livekit.plugins import openai
-form dotenv import load_dotenv
+from dotenv import load_dotenv
 import os
 
 load_dotenv()
