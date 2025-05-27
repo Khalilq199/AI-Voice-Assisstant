@@ -1,4 +1,4 @@
-from __future__ import annotationsfrom 
+from __future__ import annotations
 from livekit.agents import (
     AutoSubscribe,
     JobContext,
