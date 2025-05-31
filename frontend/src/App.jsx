@@ -17,11 +17,13 @@ function App() {
 
       <main>
         <section className="hero">
-          <h1>Get the Right Parts. Right Now</h1>
-          <p>Free Next Day Delivery on Eligible Orders</p>
-          <div className="search-bar">
-            <input type="text" placeholder='Enter vehicle or part number'></input>
-            <button>Search</button>
+          <div className="hero-content">
+            <h1>Get the Right Parts. Right Now</h1>
+            <p>Free Next Day Delivery on Eligible Orders</p>
+            <div className="search-bar">
+              <input type="text" placeholder="Enter vehicle or part number" />
+              <button className="primary-btn">Search</button>
+            </div>
           </div>
         </section>
 
